@@ -1,4 +1,4 @@
-from Noinoi.EXTRA.cache.admins import admins
+from Noinoi.DREAMS.cache.admins import admins
 from Noinoi.DREAMS.noinoi import call_py, bot
 from pyrogram import Client, filters
 from Noinoi.DREAMS.design.thumbnail import thumb
