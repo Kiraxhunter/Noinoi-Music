@@ -2,8 +2,8 @@ import asyncio
 from Noinoi.DREAMS.noinoi import user
 from pyrogram.types import Message
 from pyrogram import Client, filters
-from Noinoiconfig import BOT_USERNAME, SUDO_USERS
-from driver.filters import command, other_filters
+from Noinoi.config import BOT_USERNAME, SUDO_USERS
+from Noinoi.DREAMS.filters import command, other_filters
 from pyrogram.errors import UserAlreadyParticipant, UserNotParticipant
 from Noinoi.DREAMS.decorators import authorized_users_only, sudo_users_only
 
